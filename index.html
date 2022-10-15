@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Etch-a-Sketch</title>
+</head>
+<body>
+    <div class="header">
+        <p class="bold">Etch-a-Sketch</p>
+    </div>
+
+    <div class="content">
+        <div class="settings">
+            <p class="bold">Settings</p>
+            <p class="semibold">Current grid size: </p><p class="semibold grid-size">16 x 16</p>
+            <div class="dropdown">
+                <button class="drop_btn">Grid Size</button>
+                <div class="dropdown-content">
+                    <a href="#" class="4" onclick="return false;">4 x 4</a>
+                    <a href="#" class="6" onclick="return false;">6 x 6</a>
+                    <a href="#" class="8" onclick="return false;">8 x 8</a>
+                    <a href="#" class="12" onclick="return false;">12 x 12</a>
+                    <a href="#" class="16" onclick="return false;">16 x 16</a>
+                    <a href="#" class="24" onclick="return false;">24 x 24</a>
+                    <a href="#" class="32" onclick="return false;">32 x 32</a>
+                </div>
+            </div>
+            <button class="reset_btn">RESET</button>
+        </div>
+        <div class="container">
+
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
